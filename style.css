@@ -1731,7 +1731,7 @@ body {
   .thirdtitle {
     height: 40%;
     line-height: 1.42857143;
-    margin-top: 10%;
+    margin-top: 0;
     overflow: hidden;
   }
   .thirdtitle h3 {
@@ -1800,7 +1800,7 @@ body {
   }
   .fourttitle h5 {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 15px;
     padding: 0 7px;
     /* padding-bottom: 20%; */
     text-align: center;
@@ -2084,7 +2084,8 @@ body {
   }
   .container {
     height: 205vh;
-    margin-left: 10%;
+    
+     margin-left: 5%;
     /* position: absolute; */
     /* left: 10%; */
     overflow-y: hidden;
