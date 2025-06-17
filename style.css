@@ -1680,13 +1680,18 @@ body {
     margin-right: 20%;
   }
   .bar{
-    width: 65%;
+    width: 50%;
     height: auto;
+    /* position: relative; */
   }
   .bar i{
     font-size: 30px;
     /* position: absolute; */
     /* top: 5%; */
+    /* bottom: 5%; */
+    /* padding-top: 15px;
+     */
+     margin-top: 30px;
   }
   .imagecontent {
     /* gap: 20px; */
@@ -1705,7 +1710,9 @@ body {
     /* gap: 5%; */
     width: 100vw;
     height: 290vh;
-    overflow: hidden;
+    /* overflow: hidden; */
+    /* padding-bottom: 10%; */
+    /* margin:10px; */
 
   }
   .home {
@@ -1725,6 +1732,7 @@ body {
     height: 40%;
     line-height: 1.42857143;
     margin-top: 10%;
+    overflow: hidden;
   }
   .thirdtitle h3 {
     font-size: 35px;
@@ -1744,9 +1752,10 @@ body {
     padding-bottom: 50px;
   }
   .thirdpage {
-    height: 130%;
+    height: 130vh;
     width: 100%;
     position: relative;
+    overflow: hidden;
   }
   .thirdparent {
     /* display: grid; */
@@ -1754,12 +1763,15 @@ body {
     /* height: 55%; */
     /* margin-top: %; */
     /* margin-bottom: 40%; */
-    height: 70%;
+    height: 130vh;
     width: 100%;
-    position: absolute;
-    bottom: 10%;
+   position: absolute;
+     bottom: 10%;
+     top: 5%; 
     left: 3%;
     margin: 0;
+    overflow: hidden;
+    
   }
   .thirdproductcard{
     height: 100%;
@@ -1769,6 +1781,7 @@ body {
     width: 100vw;
     height: 70%;
     position: relative;
+    overflow-y: hidden;
   }
   .fourthtitle {
      height: 60%;
@@ -1777,6 +1790,7 @@ body {
     /* gap: 1px; */
     margin: 0;
     column-gap: 0;
+    overflow-y: hidden;
   }
   .fourthtitle h3 {
     font-size: 35px;
@@ -1800,7 +1814,7 @@ body {
     margin-left: -15px;
     margin-right: -15px;
     width: 60%;
-    height: 20%;
+    height: 12%;
     margin-bottom: 45px;
     flex-direction: column;
     align-items: center;
@@ -1810,6 +1824,7 @@ body {
     margin-top: 0;
     position: absolute;
     top: 35%;
+    overflow-y: hidden;
   }
   .fourthmenus {
     position: absolute;
@@ -1897,9 +1912,9 @@ body {
     height: 100%;
   }
   .fifthproductcard h6 {
-    font-size: 26px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    font-size: 20px;
+    /* margin-bottom: 10px; */
+    /* margin-top: 10px; */
   }
   .fifthproductcard p {
     font-size: 12px;
@@ -1995,7 +2010,7 @@ body {
     width: 10%;
     margin-bottom: 30%;
     position: absolute;
-    top: 5%;
+    top: 0;
     left: 2%;
   }
   .blockcontent p {
@@ -2030,15 +2045,17 @@ body {
     height: 70%;
     width: 90%;
     position: relative;
+    overflow-y: hidden;
   }
   .boxdecor {
     top: 5%;
+    overflow-y: hidden;
   }
   .boxdecor img{
     padding-top: 20px;
   }
   .boxpara {
-    margin-top: 10%;
+    margin-top: 50%;
     width: 140vh;
     font-size: 12px;
     line-height: 20px;
@@ -2046,6 +2063,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
   }
   .boxpara p{
     font-size: 12px;
@@ -2063,10 +2081,11 @@ body {
     overflow-y: hidden;
   }
   .container {
-    height: 90%;
+    height: 80%;
     margin-left: 10%;
     /* position: absolute; */
     /* left: 10%; */
+    overflow-y: hidden;
   }
   
   .ninepagecontent h3 {
@@ -2085,10 +2104,11 @@ body {
     position: relative;
   }
   .reviewbox {
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 85%;
     position: relative;
-    right: 10%;
+    right: 15%;
+    bottom: 5%;
     
   }
   .reviewicon{
@@ -2136,7 +2156,7 @@ body {
   
   }
   .leftcoloumimage img{
-       padding-top: 20px; 
+       padding-top: 0; 
        margin-bottom: 100%;
        margin-left: 10%;
        margin-top: 100%;
@@ -2171,7 +2191,7 @@ body {
      /* margin-bottom: 10%; */
      /* margin-top: 10%; */
      position: absolute;
-     top: 85%;
+     top: 90%;
      left: 20%;
 
   }
@@ -2202,10 +2222,7 @@ body {
     margin-right: 2%;
     margin-top: 15%;
   }
-  .row{
-    column-gap: 50px;
-    width: 100%;
-  }
+
   .lastline{
     margin-top: 10%;
     /* width: 5px; */
