@@ -1752,7 +1752,7 @@ body {
     padding-bottom: 50px;
   }
   .thirdpage {
-    height: 130vh;
+    height: 150vh;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -1763,7 +1763,7 @@ body {
     /* height: 55%; */
     /* margin-top: %; */
     /* margin-bottom: 40%; */
-    height: 130vh;
+    height: 140vh;
     width: 100%;
    position: absolute;
      bottom: 10%;
@@ -1821,7 +1821,7 @@ body {
     justify-content: space-evenly;
     /* margin-bottom: 10%; */
     /* margin: 5 5; */
-    margin-top: 0;
+    margin-top: 35px;
     position: absolute;
     top: 35%;
     overflow-y: hidden;
@@ -1913,6 +1913,8 @@ body {
   }
   .fifthproductcard h6 {
     font-size: 20px;
+    margin-bottom: 1%;
+    /* margin-top: 5%; */
     /* margin-bottom: 10px; */
     /* margin-top: 10px; */
   }
@@ -2048,7 +2050,7 @@ body {
     overflow-y: hidden;
   }
   .boxdecor {
-    top: 5%;
+    top: 0;
     overflow-y: hidden;
   }
   .boxdecor img{
@@ -2076,12 +2078,12 @@ body {
     justify-content: center;
   }
   .ninepage {
-    height: 200vh;
+    height: 100vh;
     position: relative;
     overflow-y: hidden;
   }
   .container {
-    height: 80%;
+    height: 205vh;
     margin-left: 10%;
     /* position: absolute; */
     /* left: 10%; */
@@ -2191,7 +2193,7 @@ body {
      /* margin-bottom: 10%; */
      /* margin-top: 10%; */
      position: absolute;
-     top: 90%;
+     top: 95%;
      left: 20%;
 
   }
