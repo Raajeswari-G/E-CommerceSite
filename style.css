@@ -1732,16 +1732,24 @@ body {
     /* height: 55%; */
     /* margin-top: %; */
     /* margin-bottom: 40%; */
-    height: 75%;
+    height: 70%;
+    width: 100%;
     position: absolute;
     bottom: 5%;
+    left: 3%;
+    margin: 0;
+  }
+  .thirdproductcard{
+    height: 100%;
   }
   .fourthpage {
     width: 100vw;
     height: 70%;
+    position: relative;
   }
   .fourthtitle {
-    font-size: 14px;
+     height: 60%;
+    font-size: 10px;
     font-family: "Open Sans", sans-serif;
     /* gap: 1px; */
     margin: 0;
@@ -1769,7 +1777,7 @@ body {
     margin-left: -15px;
     margin-right: -15px;
     width: 60%;
-    height: 10%;
+    height: 20%;
     margin-bottom: 45px;
     flex-direction: column;
     align-items: center;
@@ -1777,7 +1785,8 @@ body {
     /* margin-bottom: 10%; */
     /* margin: 5 5; */
     margin-top: 0;
-    position: relative;
+    position: absolute;
+    top: 35%;
   }
   .fourthmenus {
     position: absolute;
@@ -1793,10 +1802,13 @@ body {
     bottom: 3%;
   }
   .productparent{
+    /* position: absolute; */
+    /* bottom: 2%; */
     grid-template-columns: repeat(3,1fr);
     column-gap: 15px;
     width: 90%;
-    height: 15%;
+    height: 100%;
+    padding-bottom: 5%;
   }
   .productcard:nth-child(4){
     display: none;
@@ -1822,7 +1834,8 @@ body {
   }
   .fifthparent {
     grid-template-columns: repeat(1, 1fr);
-    height: 70%;
+    height: 80%;
+    width: 100%;
   }
   .fifthpage {
     height: 170vh;
@@ -1869,6 +1882,7 @@ body {
     font-size: 12px;
     line-height: 25px;
     margin: 0 0 10px;
+    display: none;
   }
   .sixthpage {
     height: 90%;
@@ -1929,7 +1943,7 @@ body {
     margin: 0 0 10px;
   }
   .seventhpage {
-    height: 60vh;
+    height: 80%;
   }
   .seventhpage1{
     width: 100vw;
@@ -1943,10 +1957,12 @@ body {
     /* display: none; */
     width: 90%;
     height: 100%;
+    /* position: absolute; */
+    /* right: 10%; */
   }
   .blockcontent {
     width: 60%;
-    height: 50%;
+    height: 60%;
     gap: 20px;
   }
   .blockcontent img {
@@ -1954,7 +1970,7 @@ body {
     width: 10%;
     margin-bottom: 30%;
     position: absolute;
-    top: -25%;
+    top: 5%;
   }
   .blockcontent p {
     font-size: 16px;
@@ -1970,7 +1986,7 @@ body {
     display: flex;
     line-height: 1.1;
     position: absolute;
-    top: 20%;
+    top: 40%;
   }
   .eightpage {
     height: 100%;
@@ -1986,7 +2002,7 @@ body {
   }
   .box {
     height: 70%;
-    width: 100%;
+    width: 90%;
     position: relative;
   }
   .boxdecor {
@@ -2016,10 +2032,11 @@ body {
     justify-content: center;
   }
   .ninepage {
-    height: 180vh;
+    height: 200vh;
     position: relative;
   }
   .container {
+    height: 90%;
     margin-left: 10%;
     /* position: absolute; */
     /* left: 10%; */
@@ -2065,16 +2082,17 @@ body {
   }
   
   .lastpage {
-    height: 135vh;
+    height: 170vh;
   }
   .wholecoloum {
+    height: 120vh;
     display: flex;
     flex-direction: column;
   }
   .leftcoloum{
     width: 100%;
     position: none;
-    height: 50%;
+    height: 80%;
   }
   .leftcoloumimage   {
     margin-bottom: 90%;  }
@@ -2084,6 +2102,7 @@ body {
   
   .lastpagecontent{
     padding: 0 15px;
+    /* margin-bottom: 15%; */
   }
   .leftcoloumpara{
     font-size: 14px;
@@ -2106,18 +2125,29 @@ body {
   }
   .rightcoloum{
     width: 100%;
+    
   }
   .send{
     margin-right: 50%;
   }
   .containerfoot{
-    width: 100%;
+    /* width: 100%; */
+    height: 50%;
   }
   .footer{
     height: 24%;
   }
+  .pin{
+    width: 5%;
+    position: relative;
+  }
+  .pinicon{
+    position: absolute;
+    top: 5px;
+
+  }
   .footicon{
-    margin-right: 10%;
+    margin-right: 2%;
     margin-top: 15%;
   }
   .row{
@@ -2125,6 +2155,7 @@ body {
   }
   .lastline{
     margin-top: 10%;
+    /* width: 5px; */
   }
 
 
