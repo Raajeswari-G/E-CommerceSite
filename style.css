@@ -1837,7 +1837,7 @@ body {
   }
   .iconmenu{
     position: absolute;
-    bottom: 3%;
+    bottom: 0;
   }
   .productparent{
     /* position: absolute; */
@@ -2195,7 +2195,8 @@ body {
      /* margin-top: 10%; */
      position: absolute;
      top: 95%;
-     left: 20%;
+     /* left: 20%; */
+     left: 5%;
 
   }
   .rightcoloum{
