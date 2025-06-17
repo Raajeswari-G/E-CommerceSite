@@ -1240,14 +1240,26 @@ body {
   .wholenavbar {
     width: 100%;
     height: 30%;
+    position: relative;
   }
   .logo {
+    position: absolute;
     margin-top: 20%;
+    bottom: 40%;
   }
   .iconline {
+    position: relative;
     margin-bottom: 10%;
-    width: 130%;
+    width: 100%;
     height: 10%;
+    right: 2%;
+    left: 2%;
+    /* position: relative; */
+  
+  }
+  .bar i{
+    position: absolute;
+    bottom: 10%;
   }
   .home {
     width: 100%;
@@ -1271,6 +1283,7 @@ body {
     column-gap: 8px;
     row-gap: 20px;
     height: 55%;
+    margin-top: 30%;
   }
   .thirdproductcard {
     line-height: 20px;
@@ -1278,7 +1291,7 @@ body {
   .fourthpage {
     /* margin-bottom: 300%; */
     /* padding-bottom: 106px; */
-    height: 60%;
+    height: 70%;
     /* background-color: #83cfd7; */
   }
   .fourthtitle {
@@ -1293,18 +1306,28 @@ body {
   }
   .fourthwholenavbar {
     width: 90%;
-    height: 4%;
+    height: 5%;
     margin-left: -15px;
     margin-right: -15px;
     margin-top: 50px;
-    margin-bottom: 10%;
+     margin-bottom: 10%; 
+     position: relative;
+  }
+  .fourthmenus{
+    position: absolute;
+    top: 3%;
+  }
+  .iconmenu{
+    position: absolute;
+    bottom: 3%;
   }
   .productparent {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 15px;
     width: 90%;
     /* padding-bottom: 10px; */
-    height: 25%;
+    height: 15%;
+    /* margin-bottom: 20%; */
   }
   .productcard:nth-child(4) {
     display: none;
@@ -1314,15 +1337,21 @@ body {
   }
   .productcard {
     height: 120%;
+    position: relative;
   }
   .productcardalt {
-    /* margin-bottom: 5%;
-   */
-    /* padding: 20px 20px ; */
-    /* height: 30%; */
+    position: absolute;
+    /* bottom: 3px; */
+    /* top: 75px; */
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 10%;
+    top: 70%;
   }
   .fifthpage {
-    height: 90%;
+    height: 100%;
   }
   .fifthpagecontent h3 {
     margin-top: 10%;
@@ -1337,12 +1366,16 @@ body {
     padding: 0 20px;
   }
   .fifthparent {
+    height: 75%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-left: -15px;
     margin-right: -15px;
     margin: 50px;
     margin-top: 10%;
+  }
+  .fifthproductcard{
+    height: 100%;
   }
   .fifthproductcard h6 {
     font-size: 26px;
@@ -1382,14 +1415,25 @@ body {
 
   .block img {
     width: 70%;
+    /* position: relative; *//
+    /* padding: 20px; */
+    
   }
   .blockcontent img {
+    /* position: absolute; */
+    /* right: 10%; */
     width: 20%;
     margin-bottom: 10%;
+    margin-right: 35%;
+  }
+  .blockcontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .blockcontent p {
-    font-size: 10px;
-    font-weight: 800;
+    font-size: 15px;
+    font-weight: 200;
     /* line-height:27px; */
     /* margin-bottom: 50px; */
     margin: 0 0 10px;
@@ -1406,7 +1450,7 @@ body {
     position: none;
   }
   .eightpage {
-    height: 50%;
+    height: 100%;
   }
   .eightpagecontent {
     /* margin-bottom: 60%; */
@@ -1425,19 +1469,20 @@ body {
     margin: 0 20px;
   }
   .box {
-    height: 30%;
-    width: 90%;
+    height: 80%;
+    width: 100%;
     left: 5%;
     /* padding-top: 50px; */
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    /* display: flex; */
+    /* align-items: flex-start; */
+    /* justify-content: center; */
     /* margin-bottom: 50%; */
     text-align: center;
     padding: 45px 85px;
   }
   .boxpara {
     margin-top: 10%;
+    width: 140%;
   }
   .boxpara p {
     font-size: 12px;
@@ -1445,19 +1490,25 @@ body {
     margin: 0 0 10px;
     padding: 0%;
     font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
   }
   .boxdecor img {
     /* margin: 0 auto 35px; */
     padding-top: 20px;
   }
   .ninepage {
-    height: 150%;
+    height: 100%;
   }
   .container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin-left: 30%;
     margin-top: 10%;
+    height: 80%;
+    width: 100%;
   }
   .ninepagecontent {
     font-size: 45px;
@@ -1473,26 +1524,38 @@ body {
     /* justify-content: space-around; */
   }
   .reviews {
-    height: 60%;
+    height: 80%;
   }
   .reviewbox {
     height: 70%;
     width: 70%;
     /* max-width: 420px; */
     translate: 10px 80px;
+    position: relative;
   }
   .reviewicon {
+    position: absolute;
     /* padding-bottom: 10px; */
     translate: 40px 1px;
+    bottom: 10px;
+
   }
   .lastpage {
     height: 60%;
   }
-  .leftcoloumimage {
-    margin-bottom: 90%;
+  .lastpagecontent{
+    margin-top: 15%;
   }
+  .leftcoloum{
+    position: relative;
+  }
+
   .leftcoloumimage img {
+    /* position: absolute; */
     width: 135px;
+    /* margin-bottom: 70%; */
+    /* bottom: 50%; */
+    margin-bottom: 0%;
   }
   .leftcoloumpara {
     font-size: 14px;
@@ -1513,7 +1576,7 @@ body {
     word-spacing: 1px;
   }
   .location {
-    margin-bottom: 30%;
+    margin-bottom: 50%;
     /* padding-top: 20%; */
   }
   .wholecoloum {
@@ -1607,8 +1670,13 @@ body {
     margin-bottom: 5%;
   }
   .iconline {
-    width: 100%;
-    margin-right: 10%;
+    position: relative;
+    width: 110%;
+    margin-right: 20%;
+  }
+  .bar i{
+    position: absolute;
+    bottom: 10%;
   }
   .imagecontent {
     gap: 20px;
@@ -1622,6 +1690,7 @@ body {
   .home h5 {
     display: none;
   }
+  
   .thirdtitle {
     height: 40%;
     line-height: 1.42857143;
@@ -1647,11 +1716,17 @@ body {
   .thirdpage {
     height: 130%;
     width: 100%;
+    position: relative;
   }
   .thirdparent {
     /* display: grid; */
     grid-template-columns: repeat(1, 4fr);
-    height: 5%;
+    /* height: 55%; */
+    /* margin-top: %; */
+    margin-bottom: 40%;
+    height: 60%;
+    position: absolute;
+    bottom: 5%;
   }
   .fourthpage {
     width: 100%;
@@ -1694,25 +1769,55 @@ body {
     /* margin-bottom: 10%; */
     /* margin: 5 5; */
     margin-top: 0;
+    position: relative;
   }
   .fourthmenus {
+    position: absolute;
+    bottom: 10%;
     padding: 0;
     font-size: 15px;
     font-weight: 600;
     line-height: 40px;
     gap: 15px;
   }
+  .iconmenu{
+    position: absolute;
+    bottom: 3%;
+  }
+  .productparent{
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 15px;
+    width: 90%;
+    height: 15%;
+  }
+  .productcard:nth-child(4){
+    display: none;
+  }
+  .productcard img{
+    height: 80%;
+  }
 
   .productcard {
-    height: 100%;
+    height: 120%;
+    /* width: 90%; */
     /* position: absolute; */
+    position: relative;
+  }
+  .productcardalt{
+    position: absolute;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 10%;
+    top: 70%;
   }
   .fifthparent {
     grid-template-columns: repeat(1, 1fr);
     height: 70%;
   }
   .fifthpage {
-    height: 170%;
+    height: 180%;
     /* margin-top: 30%; */
   }
   .fifthpagecontent {
@@ -1720,6 +1825,7 @@ body {
     font-family: "Open Sans", sans-serif;
     line-height: 1.42857143;
     column-gap: 0;
+    text-align: center;
   }
   .fifthpagecontent h3 {
     margin-top: 0;
@@ -1731,12 +1837,29 @@ body {
     margin-bottom: 35px;
     padding-bottom: 15%;
     padding-top: 0;
+    text-align: center;
+  }
+  .fifthparent{
+    height: 75%;
+    /* display: grid; */
+    /* grid-template-columns: repeat(2,1fr); */
+    /* margin-left:-15px ; */
+    /* margin-right: -15px; */
+    /* margin: 50px; */
+    /* margin-top: */
+  }
+  .fifthproductcard{
+    height: 100%;
   }
   .fifthproductcard h6 {
     font-size: 26px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   .fifthproductcard p {
     font-size: 12px;
+    line-height: 25px;
+    margin: 0 0 10px;
   }
   .sixthpage {
     height: 90%;
@@ -1744,6 +1867,8 @@ body {
   .sixthpagecontent h3 {
     font-size: 35px;
     margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
   }
   .sixthpagecontent h5 {
     padding: 0 7px;
@@ -1922,9 +2047,9 @@ body {
     position: none;
     height: 50%;
   }
-  .leftcoloumimage{
-   margin-top: 80%;
-  }
+  .leftcoloumimage   {
+    margin-bottom: 85%;  }
+  
   .lastpagecontent{
     padding: 0 15px;
   }
