@@ -1683,8 +1683,11 @@ body {
   }
   .home {
     width: 100%;
+    /* position: relative; */
   }
   .home h1 {
+    /* position: absolute; */
+    /* right: 5%; */
     font-size: 22px;
   }
   .home h5 {
@@ -1723,13 +1726,13 @@ body {
     grid-template-columns: repeat(1, 4fr);
     /* height: 55%; */
     /* margin-top: %; */
-    margin-bottom: 40%;
-    height: 60%;
+    /* margin-bottom: 40%; */
+    height: 75%;
     position: absolute;
     bottom: 5%;
   }
   .fourthpage {
-    width: 100%;
+    width: 100vw;
     height: 70%;
   }
   .fourthtitle {
@@ -1773,7 +1776,7 @@ body {
   }
   .fourthmenus {
     position: absolute;
-    bottom: 10%;
+    top: 3%;
     padding: 0;
     font-size: 15px;
     font-weight: 600;
@@ -1817,7 +1820,8 @@ body {
     height: 70%;
   }
   .fifthpage {
-    height: 180%;
+    height: 170vh;
+    width: 100vw;
     /* margin-top: 30%; */
   }
   .fifthpagecontent {
@@ -1840,7 +1844,7 @@ body {
     text-align: center;
   }
   .fifthparent{
-    height: 75%;
+    height: 65%;
     /* display: grid; */
     /* grid-template-columns: repeat(2,1fr); */
     /* margin-left:-15px ; */
@@ -1920,7 +1924,10 @@ body {
     margin: 0 0 10px;
   }
   .seventhpage {
-    height: 60%;
+    height: 60vh;
+  }
+  .seventhpage1{
+    width: 100vw;
   }
   .block {
     /* height: 70%; */
@@ -1961,7 +1968,7 @@ body {
     top: 20%;
   }
   .eightpage {
-    height: 70%;
+    height: 100%;
   }
   .eightpagecontent h3 {
     font-size: 35px;
@@ -1973,16 +1980,19 @@ body {
     padding: 0 5px;
   }
   .box {
-    height: 65%;
-    width: 90%;
+    height: 70%;
+    width: 100%;
     position: relative;
   }
   .boxdecor {
     top: 5%;
   }
+  .boxdecor img{
+    padding-top: 20px;
+  }
   .boxpara {
-    margin-top: 35%;
-    width: 100%;
+    margin-top: 10%;
+    width: 140vh;
     font-size: 12px;
     line-height: 20px;
     padding: 0;
@@ -1990,12 +2000,26 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .boxpara p{
+    font-size: 12px;
+    line-height: 25px;
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .ninepage {
-    height: 180%;
+    height: 180vh;
+    position: relative;
   }
   .container {
     margin-left: 10%;
+    position: absolute;
+    left: 10%;
   }
+  
   .ninepagecontent h3 {
     font-size: 35px;
     font-weight: bold;
@@ -2006,17 +2030,22 @@ body {
     padding: 0 9px;
   }
   .reviews {
-    width: 95%;
+    width: 110vw;
   }
   .reviewimage {
     position: relative;
   }
   .reviewbox {
-    width: 95%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
+    position: relative;
+    right: 10%;
+    
+  }
+  .reviewicon{
     position: absolute;
-    right: 5%;
-    /* left: 5%; */
+    bottom: 10px;
+    translate: 40px 1px;
   }
   .reviewcontent h5 {
     font-size: 24px;
@@ -2029,14 +2058,9 @@ body {
     margin-bottom: 10%;
     word-spacing: 0;
   }
-  .reviewicon {
-    padding-bottom: 10px;
-  }
-  .reviewcontent img {
-    margin-top: 8%;
-  }
+  
   .lastpage {
-    height: 135%;
+    height: 135vh;
   }
   .wholecoloum {
     display: flex;
@@ -2048,7 +2072,10 @@ body {
     height: 50%;
   }
   .leftcoloumimage   {
-    margin-bottom: 85%;  }
+    margin-bottom: 90%;  }
+    .leftcoloumimage img{
+      padding-top: 20px;
+    }
   
   .lastpagecontent{
     padding: 0 15px;
