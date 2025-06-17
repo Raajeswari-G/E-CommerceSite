@@ -4,6 +4,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 body {
   width: 100vw;
@@ -1664,7 +1665,11 @@ body {
 @media (max-width: 600px) {
   .body{
     overflow-x: hidden;
-    /* overflow-y: hidden; */
+    width: 100vw;
+    height: 100vh;
+  }
+  ::-webkit-scrollbar{
+    display: none;
   }
   .logoimg {
     margin-bottom: 5%;
@@ -2016,8 +2021,8 @@ body {
   }
   .container {
     margin-left: 10%;
-    position: absolute;
-    left: 10%;
+    /* position: absolute; */
+    /* left: 10%; */
   }
   
   .ninepagecontent h3 {
@@ -2029,8 +2034,8 @@ body {
     line-height: 20px;
     padding: 0 9px;
   }
-  .reviews {
-    width: 110vw;
+  .reviews{
+    width: 100%;
   }
   .reviewimage {
     position: relative;
@@ -2094,7 +2099,7 @@ body {
      margin-left: 0;
       gap: 20px;
      text-align: center;
-      padding-bottom: 30%;
+      margin-bottom: 30%;
      /* align-items: flex-start; */
      justify-content: space-around;
      /* margin-bottom: 50%; */
