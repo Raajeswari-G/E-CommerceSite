@@ -1675,12 +1675,16 @@ body {
     margin-bottom: 5%;
   }
   .iconline {
-    position: relative;
-    width: 110%;
-    margin-right: 20%;
+    /* position: relative; */
+    width: 100%;
+    height: 16%;
+    /* margin-right: 20%; */
+  }
+  .subnavbar{
+    width: 90%;
   }
   .bar{
-    width: 50%;
+    width: 30%;
     height: auto;
     /* position: relative; */
   }
@@ -1695,10 +1699,10 @@ body {
   }
   .imagecontent {
     /* gap: 20px; */
-    width: 100vw;
+    width: 100%;
     height: auto;
     font-size: small;
-    height: 290vh;
+    /* height: 10%; */
     overflow: hidden;
 
   }
@@ -1707,9 +1711,11 @@ body {
     /* position: absolute; */
     /* top: 5%; */
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     /* gap: 5%; */
-    width: 100vw;
-    height: 290vh;
+    /* width: 100vw; */
+    /* height: 290vh; */
     /* overflow: hidden; */
     /* padding-bottom: 10%; */
     /* margin:10px; */
@@ -1866,9 +1872,9 @@ body {
     font-size: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    left: 10%;
-    top: 70%;
+    justify-content:  space-between;
+    /* left: 10%; */
+    /* top: 70%; */
   }
   .fifthparent {
     grid-template-columns: repeat(1, 1fr);
@@ -1925,7 +1931,7 @@ body {
     display: none;
   }
   .sixthpage {
-    height: 90%;
+    height: 50%;
   }
   .sixthpagecontent h3 {
     font-size: 35px;
@@ -1939,47 +1945,71 @@ body {
     padding-bottom: 15%;
     padding-top: 0;
     /* margin-left: 5px; */
+    font-size: 11px;
     margin: 0 10px;}
+    .wholeRange{
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .subRange{
+      height: 100%;
+    }
+    .leftRange{
+      height: 50%;
+    }
+    .rightRange{
+      height: 50%;
+    }
 
 
   .textno1 {
     font-size: 18px;
-    display: inline-block;
-    text-align: right;
-     padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* text-align: right; */
+     /* padding: 15px; */
      /* margin-top: 5%;  */
     /* margin: 0 0 10px; */
     /* overflow-y: hidden; */
   }
   .textno1 p {
-    margin: 0 0 10px;
+   margin: 0 0 10px;
   }
   .textno2 {
     font-size: 18px;
-    display: inline-block;
-    text-align: right;
-    padding: 15px;
+    display:flex;
+    /* text-align: right; */
+    /* padding: 15px; */
     /* margin: 0 0 10px; */
+    align-items: center;
+    justify-content: space-between;
   }
   .textno2 p {
     margin: 0 0 10px;
   }
   .textno3 {
     font-size: 18px;
-    display: inline-block;
-    text-align: right;
-    padding: 15px;
+    display: flex;
+    /* text-align: right; */
+    /* padding: 15px; */
     /* margin: 0 0 10px; */
+    align-items: center;
+    justify-content: space-between;
   }
   .textno3 p {
     margin: 0 0 10px;
   }
   .textno4 {
     font-size: 18px;
-    display: inline-block;
-    text-align: right;
-    padding: 15px;
+    display: flex;
+    /* text-align: right; */
+    /* padding: 15px; */
     /* margin: 0 0 10px; */
+    align-items: center;
+    justify-content: space-between;
   }
   .textno4 p {
     margin: 0 0 10px;
@@ -2231,6 +2261,24 @@ body {
     margin-top: 10%;
     /* width: 5px; */
   }
+  .name input{
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid black;
+  }
+  .email input{
+    outline: none;
+    border: 1px solid black;
+  }
+  .textarea input{
+    outline: none;
+    border: 2px solid black;
+  }
+  .send input{
+    outline:  none;
+    border: 1px solid black;
+  }
+  
 
 
 
@@ -2242,4 +2290,5 @@ body {
 
 
 
+  
 }
