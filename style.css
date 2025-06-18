@@ -1699,7 +1699,7 @@ body {
   }
   .imagecontent {
     /* gap: 20px; */
-    width: 100%;
+    width: 115%;
     height: auto;
     font-size: small;
     /* height: 10%; */
@@ -2148,6 +2148,7 @@ body {
     position: absolute;
     bottom: 10px;
     translate: 40px 1px;
+    left: 5%;
   }
   .reviewcontent h5 {
     font-size: 24px;
